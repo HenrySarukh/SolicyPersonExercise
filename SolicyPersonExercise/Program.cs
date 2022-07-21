@@ -4,33 +4,33 @@
 var peopleExc = new List<Person>
 {
      new Person
-    {
-        FirstName = "Rustam",
-        LastName = "Prodigy",
-        Age = 30,
-        Profession = Profession.Developer
-    },
+     (
+        "Rustam",
+        "Prodigy",
+        30,
+        Profession.Developer
+    ),
     new Person
-    {
-        FirstName = "Vazgen",
-        LastName = "Prodigy",
-        Age = 26,
-        Profession = Profession.HR
-    },
+     (
+        "Vazgen",
+        "Prodigy",
+        26,
+        Profession.HR
+    ),
     new Person
-    {
-        FirstName = "Vazgen",
-        LastName = "Prodigy",
-        Age = 24,
-        Profession = Profession.Marketing
-    },
-    new Person
-    {
-        FirstName = "Vazgen",
-        LastName = "Prodigy",
-        Age = 18,
-        Profession = Profession.Developer
-    }
+     (
+        "Vazgen",
+        "Prodigy",
+        24,
+        Profession.Marketing
+    ),
+   new Person
+     (
+        "Vazgen",
+        "Prodigy",
+        18,
+        Profession.Developer
+    ),
 };
 
 var people = new People(peopleExc);
